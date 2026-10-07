@@ -3,6 +3,9 @@
 using namespace std;
 
 int main() {
-    cout << "Hello world!";
+        
+    for(int i=1; i <=26; i++) {
+        cout << i << " litera to " << (char)(i+96) << endl;
+    }
     return 0;
 }
